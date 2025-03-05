@@ -1,40 +1,32 @@
 # C vs. Python
 ## Lenguajes Compilados
-Un lenguaje compilado convierte el código fuente en código máquina antes de ejecutarse. Ejemplos:
-
-C, C++, Rust, Go
-Ventajas
-✅ Mayor velocidad de ejecución: El código ya está traducido a instrucciones de bajo nivel optimizadas.
-✅ Menos consumo de recursos: No requiere un intérprete en tiempo de ejecución.
-✅ Mayor optimización: Los compiladores aplican técnicas de optimización para mejorar el rendimiento.
-
-Desventajas
-❌ Menos flexibilidad: Cualquier cambio en el código requiere recompilación.
-❌ Mayor tiempo de desarrollo: Compilar y depurar puede ser más complejo.
+Un lenguaje compilado convierte el código fuente en código máquina antes de ejecutarse, es decir, realiza la compilación de todo el código.
 
 ## Lenguajes Interpretados
-Un lenguaje interpretado ejecuta el código línea por línea sin necesidad de compilación previa. Ejemplos:
 
-Python, JavaScript, Ruby, PHP
-Ventajas
-✅ Más flexibilidad: Permite cambios rápidos en el código sin recompilar.
-✅ Fácil de depurar: La ejecución línea por línea facilita la detección de errores.
-✅ Portabilidad: Se puede ejecutar en múltiples plataformas sin recompilar.
+## Lenguajes Interpretados
+Un lenguaje interpretado ejecuta el código línea por línea sin necesidad de compilación previa.
 
-Desventajas
-❌ Menor rendimiento: La interpretación en tiempo real hace que la ejecución sea más lenta.
-❌ Mayor consumo de recursos: El intérprete agrega una capa extra de procesamiento.
+# Comparacion
 
-## Comparación de Rendimiento
-Para comparar el rendimiento, podemos evaluar tiempos de ejecución con un mismo algoritmo en dos lenguajes:
+La ejecucion de los programas en un lenguaje compilado tiende a ser mas rapida que en un lenguaje interpretado.
 
+# Ejemplo: Suma de numeros
+
+# Ejecucion en Python
+```
+python3 suma.py
+```
+Tiempo de ejecución en Python de la suma de 1 a 99999: 0.010621 segundos
+Tiempo de ejecución en Python de la suma de 1 a 999999: 0.084057 segundos
+Tiempo de ejecución en Python de la suma de 1 a 9999999: 0.786043 segundos
+
+#Ejecucion en C
 ```
 gcc suma.c -o suma
 ./suma
 ```
-Tiempo de ejecución en C: 0.003162 segundos
 
-```
-python3 suma.py
-```
-Tiempo de ejecución en Python: 0.099191 segundos
+Tiempo de ejecución en C de la suma de 1 a 99999: 0.000203 segundos
+Tiempo de ejecución en C de la suma de 1 a 999999: 0.006102 segundos
+Tiempo de ejecución en C de la suma de 1 a 9999999: 0.022541 segundos
