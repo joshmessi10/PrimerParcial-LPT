@@ -9,7 +9,7 @@ Un lenguaje interpretado ejecuta el código línea por línea sin necesidad de c
 
 # Comparacion
 
-La ejecucion de los programas en un lenguaje compilado tiende a ser mas rapida que en un lenguaje interpretado.
+La ejecucion de los programas en un lenguaje compilado tiende a tener una mayor velocidad de ejecucion que en un lenguaje interpretado.
 
 # Ejemplo: Suma de numeros
 
