@@ -18,8 +18,11 @@ La ejecucion de los programas en un lenguaje compilado tiende a tener una mayor 
 python3 suma.py
 ```
 Tiempo de ejecución en Python de la suma de 1 a 99999: 0.010621 segundos
+
 Tiempo de ejecución en Python de la suma de 1 a 999999: 0.084057 segundos
+
 Tiempo de ejecución en Python de la suma de 1 a 9999999: 0.786043 segundos
+
 
 #Ejecucion en C
 ```
@@ -28,5 +31,7 @@ gcc suma.c -o suma
 ```
 
 Tiempo de ejecución en C de la suma de 1 a 99999: 0.000203 segundos
+
 Tiempo de ejecución en C de la suma de 1 a 999999: 0.006102 segundos
+
 Tiempo de ejecución en C de la suma de 1 a 9999999: 0.022541 segundos
